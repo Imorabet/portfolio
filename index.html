@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="tailwind-output.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="shortcut icon" href="./images/logo2.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Quicksand:wght@300&family=Raleway:wght@500&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/bd9b5a24ba.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="index.js" defer></script>
+  <title>Ikhlas El Morabet</title>
+</head>
+
+<body class="bg-slate-800 text-white">
+
+  <!-- header with nav bar -->
+  <header class="w-full flex flex-row  lg:py-5 lg:px-10 fixed gap-7 nav1 justify-end sm:px-4 sm:py-4">
+    <a href="#main" class="absolute md:left-5 md:top-11 sm:left-1 sm:top-5 lg:left-7 lg:top-5"> <img
+        src="./images/logo2.png" alt="logo" width="40%" /></a>
+    <div class="absolute text-4xl right-4 top-6 cursor-pointer lg:hidden md:hidden" onclick="openSidebar()">
+      <i class="fa-solid fa-bars-staggered text-purple-400"></i>
+    </div>
+
+    <a href="#aboutme" class="hover:text-purple-400 menu tracking-wider font-bold md:flex lg:flex sm:hidden">About</a>
+
+    <a href="#projects"
+      class="hover:text-purple-400 menu tracking-wider font-bold md:flex lg:flex sm:hidden ">Projects</a>
+
+    <a href="#contact"
+      class="hover:text-purple-400 menu tracking-wider font-bold md:flex lg:flex sm:hidden ">Contact</a>
+
+
+  </header>
+  <div class="lg:hidden md:hidden sidebar ">
+    <div class="text-gray-100 text-xl">
+      <div class="p-2.5 mt-8 flex justify-end">
+        <i class="fa-solid fa-x fa-lg cursor-pointer text-purple-400 " onclick="openSidebar()"></i>
+      </div>
+      <div class="p-2.5 mt-1 flex items-center rounded-md px-4 duration-300 cursor-pointer">
+        <a href="#aboutme" class="hover:text-purple-400 menu tracking-wider font-bold ">About</a>
+
+      </div>
+      <div class="p-2.5 mt-1 flex items-center rounded-md px-4 duration-300 cursor-pointer">
+        <a href="#projects" class="hover:text-purple-400 menu tracking-wider font-bold  ">Projects</a>
+
+      </div>
+      <div class="p-2.5 mt-1 flex items-center rounded-md px-4 duration-300 cursor-pointer">
+        <a href="#contact" class="hover:text-purple-400 menu tracking-wider font-bold  ">Contact</a>
+
+      </div>
+      <div class=" fixed bottom-0 p-2.5 my-5 mx-5 flex items-center rounded-md gap-10 duration-300 cursor-pointer">
+        <a href="https://www.linkedin.com/in/ikhlas-el-morabet-26890b251/" class="hover:text-purple-400 "><i
+            class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/imorabet" class="hover:text-purple-400"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/ikhlasElmorabet" class="hover:text-purple-400 "><i class="fab fa-twitter"></i></a>
+        <a href="https://codepen.io/imorabet" class="hover:text-purple-400 "><i class="fa-brands fa-codepen"></i></a>
+
+      </div>
+
+
+    </div>
+  </div>
+  <nav class="nav2 lg:flex lg:flex-col lg:fixed top-1/4 lg:gap-3  md:flex md:flex-col md:fixed  md:gap-3   sm:hidden">
+    <div class="vertical"></div>
+    <a href="https://www.linkedin.com/in/ikhlas-el-morabet-26890b251/" class="hover:text-purple-400 "><i
+        class="fa-brands fa-linkedin-in"></i></a>
+    <a href="https://github.com/imorabet" class="hover:text-purple-400"><i class="fab fa-github"></i></a>
+    <a href="https://twitter.com/ikhlasElmorabet" class="hover:text-purple-400 "><i class="fab fa-twitter"></i></a>
+    <a href="https://codepen.io/imorabet" class="hover:text-purple-400 "><i class="fa-brands fa-codepen"></i></a>
+  </nav>
+  <!-- main pageeeeeeeeee -->
+  <main class="lg:mx-28 lg:pt-10 md:mx-20 md:pt-10  sm:mx-5">
+    <!-- home screeen -->
+    <div class="my-5 xl:h-screen lg:h-screen lg:pt-1 sm:h-screen md:pt-36 md:pb-56" id="main">
+      <br>
+      <h1 class="text-7xl py-3 ">
+        Hiii !! I'm <br>
+        <strong class="font-extrabold capitalize name">ikhlas el morabet</strong>,
+        <br> web developer.
+      </h1>
+      <p class="py-4 fading">
+        Born and raised in Tetouan , Morocco , I am a rookie full-stack developer , passionate about developing web
+        applications and seeking new opportunities in order to master in my field and to improve my skills .
+      </p>
+      <span class="fading">Ps: I try to keep my portfolio updated :) </span>
+
+      <br>
+      <a href="#aboutme" class="text-purple-400">Scroll down <i class="fa-solid fa-angles-down fa-fade"></i></a>
+
+    </div>
+    <!-- about meeeeeeee -->
+    <div class="lg:h-screen xl:h-[80vh] sm:mt-16 md:-my-10">
+
+      <h1 class="text-4xl font-bold  fading text-purple-400" id="aboutme">About me :</h1>
+      <br><br>
+      <div class="lg:flex lg:flex-row lg:gap-7 lg:flex-nowrap sm:flex-wrap">
+        <div class="fading">
+          Hi there! Ikhlas here, a student at ISMO. I'm pursuing a career as a full-stack web developer. Because I've
+          always
+          been interested in programming and computers, I decided that this was the best major for me. I may lack
+          experience and some skills, but I am a hard worker and a quick learner eager to devote all of my time to my
+          passion.
+          <br>
+          those are the technologies and programming languages I have
+          learned and can use so far:
+          <br>
+          <div class="flex flex-row flex-wrap w-60 gap-4">
+            <li class="list-none text-slate-300"><i class="fa-solid fa-arrow-right text-purple-400"></i> MYSQL</li>
+            <li class="list-none text-slate-300"><i class="fa-solid fa-arrow-right text-purple-400"></i> PHP</li>
+
+            <li class="list-none text-slate-300"><i class="fa-solid fa-arrow-right text-purple-400"></i> Python</li>
+            <li class="list-none text-slate-300"><i class="fa-solid fa-arrow-right text-purple-400"></i> HTML5 and CSS3
+            </li>
+
+
+            <li class="list-none text-slate-300"><i class="fa-solid fa-arrow-right text-purple-400"></i> JavaScript</li>
+            <li class="list-none text-slate-300"><i class="fa-solid fa-arrow-right text-purple-400"></i> MongoDB</li>
+
+            <li class="list-none text-slate-300"><i class="fa-solid fa-arrow-right text-purple-400"></i> React</li>
+            <li class="list-none text-slate-300"><i class="fa-solid fa-arrow-right text-purple-400"></i> Express Js</li>
+
+          </div>
+        </div>
+        <br>
+        <img width="30%" src="./images/me1.jpeg" class="mypic sm:w-72" alt="my pic" />
+
+      </div>
+    </div>
+    <!-- projects -->
+    <div class="lg:h-screen sm:my-52  xl:h-[70vh]">
+      <h1 class="text-4xl font-bold fading text-purple-400" id="projects">Things I have built:</h1>
+      <br><br>
+      <p class="fading">Those are some small projects I have built but you can find other ones in my <a
+          href="https://github.com/imorabet" class="hover:text-purple-400 hover:font-semibold">Github</a>. </p>
+      <div class="flex flex-row justify-center py-5 px-2 mx-1 gap-10 prj sm:flex-wrap">
+        <div
+          class="flex flex-col justify-center lg:max_w bg-slate-800 rounded-md shadow-lg sm:w-64 hover:-translate-y-2 ">
+          <img src="./images/weather.png" alt="prj1" />
+          <h5 class="text-xl hover:text-purple-400">Weather app</h5>
+          <p>
+            This project is a simple weather app made using react.js, tailwind
+            css and openweathermap api
+          </p>
+          <br>
+          <button class="btn text-purple-400 hover:bg-slate-900 capitalize border-2 border-purple-400 rounded-md">
+            <a href="https://imorabet.github.io/weather-app/"> view demo</a>
+          </button>
+        </div>
+        <div
+          class="flex flex-col justify-center lg:max_w bg-slate-800 rounded-md shadow-lg sm:w-64 hover:-translate-y-2 ">
+          <img src="./images/budget.png" alt="prj2" />
+          <h5 class="text-xl hover:text-purple-400">Budget tracker</h5>
+          <p>
+            This project is a simple budget app that help you keep track of your
+            expenses and incomes. it is made using react.js, bootstrap as well
+            as chart.js.
+          </p>
+          <br>
+          <button class="btn text-purple-400 hover:bg-slate-900 capitalize border-2 border-purple-400 rounded-md">
+            <a href="https://imorabet.github.io/Budget-Tracker/"> view demo</a>
+          </button>
+        </div>
+        <div
+          class="flex flex-col justify-center lg:max_w bg-slate-800 rounded-md shadow-lg sm:w-64 hover:-translate-y-2 ">
+          <img src="images/greenworks.png" alt="prj3" />
+          <h5 class="text-xl hover:text-purple-400">Greenworks</h5>
+          <p>
+            Greenworks is a web application that is made using php, MySQL and bootstrap. the goal of this application is
+            to raise awareness about the importance of the environment. </p>
+          <button class="btn text-purple-400 hover:bg-slate-900 capitalize border-2 border-purple-400 rounded-md">
+            <a href="https://github.com/Imorabet/Project"> view code</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- contact -->
+    <div class="lg:my-7 sm:my-72 md:my-96 lg:py-44 xl:py-32 ">
+      <h1 class="text-4xl font-bold  fading text-purple-400" id="contact">Get in touch with me:</h1>
+      <br><br>
+      <legend class="fading">
+        Still got questions or maybe interested to hire me, either way don't
+        hesitate to contact me, I will make sure to respond!
+      </legend>
+      <br>
+      <form method="post" enctype="multipart/form-data" action="mailto:ikhlas.elmorabet@gmail.com"
+        class="flex flex-col gap-4 py-1 mx-1">
+
+        <button
+          class="btn text-purple-400 hover:bg-slate-900 capitalize border-2 border-purple-400 rounded-md w-1/5 sm:w-56">
+          let's talk ฅ^•ﻌ•^ฅ
+        </button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p class="text-center my-4 mt-28"> Made with <i class="far fa-heart text-purple-400"></i> by Ikhlas.
+    </p>
+  </footer>
+</body>
+
+
+</html>
