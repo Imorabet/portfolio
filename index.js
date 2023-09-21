@@ -1,9 +1,3 @@
-if ("IntersectionObserver" in window) {
-  console.log("browser supports IntersectionObserver");
-} else {
-  console.log("browser does not support IntersectionObserver");
-}
-
 const callback = (entries, observer) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
