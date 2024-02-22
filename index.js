@@ -1,35 +1,35 @@
-const callback = (entries, observer) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
-    else{
-      entry.target.classList.remove('visible')
-    }
-  });
-}
+// const callback = (entries, observer) => {
+//   entries.forEach((entry) => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add('visible');
+//     }
+//     else{
+//       entry.target.classList.remove('visible')
+//     }
+//   });
+// }
 
-const observer = new IntersectionObserver(callback,{
-  threshold: 1,
-});
+// const observer = new IntersectionObserver(callback,{
+//   threshold: 1,
+// });
 
-const elementsAboutToBeVisible = [...document.querySelectorAll('.fading')];
-elementsAboutToBeVisible.forEach((element) => observer.observe(element));
+// const elementsAboutToBeVisible = [...document.querySelectorAll('.fading')];
+// elementsAboutToBeVisible.forEach((element) => observer.observe(element));
 
-$(document).ready(function(){
-	$('a[href^="#"]').on('click',function (e) {
-	    e.preventDefault();
+// $(document).ready(function(){
+// 	$('a[href^="#"]').on('click',function (e) {
+// 	    e.preventDefault();
 
-	    var target = this.hash;
-	    var $target = $(target);
+// 	    var target = this.hash;
+// 	    var $target = $(target);
 
-	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
-	    }, 900, 'swing', function () {
-	        window.location.hash = target;
-	    });
-	});
-});
+// 	    $('html, body').stop().animate({
+// 	        'scrollTop': $target.offset().top
+// 	    }, 900, 'swing', function () {
+// 	        window.location.hash = target;
+// 	    });
+// 	});
+// });
 
 
 function openSidebar() {
