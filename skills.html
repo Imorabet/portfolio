@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./images/logo2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/logo3.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Syne:wght@400;800&display=swap"
@@ -16,72 +16,78 @@
     <title>Ikhlas El Morabet - Skills </title>
 </head>
 
-<body class="font-jetbrains-mono w-screen bg-slate-800 text-white overflow-hidden">
+<body class="font-jetbrains-mono w-screen bg-slate-800 text-white overflow-hidden sm:overflow-y-auto min-[280px]:overflow-y-auto">
     <!-- header -->
     <header class="w-full flex flex-row lg:py-5 lg:px-10 fixed gap-7 nav1 sm:px-4 sm:py-4">
-        <a href="index.html" class="absolute md:left-5 md:top-11 sm:left-1 sm:top-5 lg:left-7 lg:top-5"> <img
-                src="./images/logo2.png" alt="logo" width="50%" /></a>
-        <div class="absolute text-5xl right-4 top-5 cursor-pointer">
-            <i class="fa-solid fa-bars-staggered text-purple-400" onclick="openNav()"></i>
+        <a href="index.html" class="absolute md:left-5 md:top-3 sm:left-1 sm:top-1 lg:left-7 lg:top-1"> <img
+            src="./images/logo3.png" alt="logo" class="min-[280px]:w-[30%] md:w-[35%]" /></a>
+        <div class="absolute right-5 top-5 cursor-pointer">
+          <i class="fa-solid md:text-5xl fa-bars-staggered min-[280px]:text-4xl text-purple-400" onclick="openNav()"></i>
         </div>
-    </header>
-
-    <div class="sidebarr" id="mySidenav">
-        <header class="w-full flex flex-row lg:py-5 lg:px-10 fixed gap-7 nav1 sm:px-4 sm:py-4">
-            <a href="index.html" class="absolute md:left-5 md:top-11 sm:left-1 sm:top-5 lg:left-7 lg:top-5"> <img
-                    src="./images/logo2.png" alt="logo" width="50%" /></a>
-            <div class="absolute text-5xl right-5 top-5 cursor-pointer">
-                <i class="fa-solid fa-xmark text-6xl text-purple-400 closebtn" onclick="closeNav()"></i>
-            </div>
+      </header>
+    
+      <div class="sidebarr lg:overflow-hidden md:overflow-y-auto min-[280px]:overflow-y-auto" id="mySidenav">
+        <header
+          class="w-full flex flex-row lg:py-5 lg:px-10 fixed gap-7 nav1 sm:px-4 sm:py-4 min-[280px]:px-4 min-[280px]:py-4">
+          <a href="index.html" class="absolute md:left-5 md:top-3 sm:left-1 sm:top-1 lg:left-7 lg:top-1 min-[280px]:top-1">
+            <img src="./images/logo3.png" alt="logo" class="min-[280px]:w-[30%] md:w-[35%]" /></a>
+          <div class="absolute text-5xl right-5 top-5 cursor-pointer">
+            <i class="fa-solid fa-xmark md:text-6xl min-[280px]:text-5xl text-purple-400 closebtn" onclick="closeNav()"></i>
+          </div>
         </header>
-        <div class="lg:mx-16 lg:mt-10 md:mx-20 md:pt-10 sm:mx-5">
-            <div
-                class="w-[324px] h-[321px] xl:-right-24 xl:top-[69%] absolute lg:-right-28 lg:top-[69%] sm:-right-56 sm:top-[77%] bg-purple-400 rounded-full">
-            </div>
-            <div class="w-fit flex justify-center lg:my-20 xl:my-32 sm:my-36 gap-12 flex-wrap">
-                <a class="lg:w-[33%] lg:mr-20" href="index.html">
-                    <h1 class="font-syne uppercase font-extrabold links text-purple-400 text-4xl"><span
-                            class="text-[1.7rem] font-light">01.</span><span class="animation">home</span></h1>
-                </a>
-                <a class="lg:w-[33%] lg:mr-20" href="about.html">
-                    <h1 class="font-syne uppercase font-extrabold links text-purple-400 text-4xl "><span
-                            class="text-[1.7rem] font-light">02.</span><span class="animation">about</span></h1>
-                </a>
-                <a class="lg:w-[33%] lg:mr-20" href="experience.html">
-                    <h1 class="font-syne uppercase font-extrabold links text-purple-400 text-4xl "><span
-                            class="text-[1.7rem] font-light">03.</span><span class="animation">experience</span></h1>
-                </a>
-                <a class="lg:w-[33%] lg:mr-20" href="skills.html">
-                    <h1 class="font-syne uppercase font-extrabold links text-purple-400 text-4xl "><span
-                            class="text-[1.7rem] font-light">04.</span><span class="animation">skills</span></h1>
-                </a>
-                <a class="lg:w-[33%] lg:mr-20" href="project.html">
-                    <h1 class="font-syne uppercase font-extrabold links text-purple-400 text-4xl "><span
-                            class="text-[1.7rem] font-light">05.</span><span class="animation">projects</span></h1>
-                </a>
-                <a class="lg:w-[33%] lg:mr-20" href="contact.html">
-                    <h1 class="font-syne uppercase font-extrabold links text-purple-400 text-4xl "><span
-                            class="text-[1.7rem] font-light">06.</span><span class="animation">contact</span></h1>
-                </a>
-            </div>
-            <div class="flex justify-center gap-9">
-                <a href="https://www.linkedin.com/in/ikhlas-el-morabet-26890b251"><i
-                        class="fa-brands fa-linkedin text-purple-400 text-4xl"></i></a>
-                <a href="https://twitter.com/ikhlaselmorabet"><i
-                        class="fa-brands fa-x-twitter text-purple-400 text-4xl"></i></a>
-                <a href="https://codepen.io/imorabet"><i class="fa-brands fa-codepen text-purple-400 text-4xl"></i></a>
-                <a href="https://github.com/Imorabet/internship/tree/main"><i
-                        class="fa-brands fa-github text-purple-400 text-4xl"></i></a>
-            </div>
+        <div class="lg:mx-16 lg:mt-10 md:mx-20 md:pt-16 sm:mx-5 min-[280px]:mx-5">
+          <div
+            class="w-[324px] h-[321px] xl:-right-24 xl:top-[69%] absolute lg:-right-28 lg:top-[69%] sm:-right-64 sm:top-[77%] min-[280px]:-right-64 min-[280px]:top-[77%] bg-purple-400 rounded-full">
+          </div>
+          <div
+            class="w-fit flex justify-center lg:my-20 xl:my-32 sm:my-24 md:gap-12 sm:gap-10 flex-wrap min-[280px]:gap-6 min-[280px]:my-24">
+            <a class="lg:w-[33%] lg:mr-20" href="index.html">
+              <h1
+                class="font-syne uppercase font-extrabold links text-purple-400 md:text-4xl sm:text-2xl min-[280px]:text-xl">
+                <span class="text-[1.7rem] font-light">01.</span><span class="animation">home</span></h1>
+            </a>
+            <a class="lg:w-[33%] lg:mr-20" href="about.html">
+              <h1
+                class="font-syne uppercase font-extrabold links text-purple-400 md:text-4xl sm:text-2xl min-[280px]:text-xl">
+                <span class="text-[1.7rem] font-light">02.</span><span class="animation">about</span></h1>
+            </a>
+            <a class="lg:w-[33%] lg:mr-20" href="experience.html">
+              <h1
+                class="font-syne uppercase font-extrabold links text-purple-400 md:text-4xl sm:text-2xl min-[280px]:text-xl">
+                <span class="text-[1.7rem] font-light">03.</span><span class="animation">experience</span></h1>
+            </a>
+            <a class="lg:w-[33%] lg:mr-20" href="skills.html">
+              <h1
+                class="font-syne uppercase font-extrabold links text-purple-400 md:text-4xl sm:text-2xl min-[280px]:text-xl">
+                <span class="text-[1.7rem] font-light">04.</span><span class="animation">skills</span></h1>
+            </a>
+            <a class="lg:w-[33%] lg:mr-20" href="project.html">
+              <h1
+                class="font-syne uppercase font-extrabold links text-purple-400 md:text-4xl sm:text-2xl min-[280px]:text-xl">
+                <span class="text-[1.7rem] font-light">05.</span><span class="animation">projects</span></h1>
+            </a>
+            <a class="lg:w-[33%] lg:mr-20" href="contact.html">
+              <h1
+                class="font-syne uppercase font-extrabold links text-purple-400 md:text-4xl sm:text-2xl min-[280px]:text-xl">
+                <span class="text-[1.7rem] font-light">06.</span><span class="animation">contact</span></h1>
+            </a>
+          </div>
+          <div class="flex justify-center gap-9">
+            <a href="https://www.linkedin.com/in/ikhlas-el-morabet-26890b251"><i
+                class="fa-brands fa-linkedin text-purple-400 md:text-4xl min-[280px]:text-3xl"></i></a>
+            <a href="https://twitter.com/ikhlaselmorabet"><i
+                class="fa-brands fa-x-twitter text-purple-400 md:text-4xl min-[280px]:text-3xl"></i></a>
+            <a href="https://codepen.io/imorabet"><i class="fa-brands fa-codepen text-purple-400 md:text-4xl min-[280px]:text-3xl"></i></a>
+            <a href="https://github.com/Imorabet/internship/tree/main"><i
+                class="fa-brands fa-github text-purple-400 md:text-4xl min-[280px]:text-3xl"></i></a>
+          </div>
         </div>
-    </div>
-
-
+      </div>
     <!-- main content -->
-    <div class="lg:mx-28 lg:mt-28 md:mx-20 md:pt-10  sm:mx-5">
+    <div class="lg:mx-28 lg:mt-28 md:mx-20 md:pt-20 sm:mx-0 sm:mt-24 min-[280px]:mx-0 min-[280px]:mt-28">
         <!-- home screeen -->
-        <div class="w-[219px] h-[206px] -right-[9%] top-[45%] absolute bg-purple-400 rounded-full"></div>
-        <div class="w-[129px] h-[132px] -left-[6%] top-[85%] absolute bg-purple-400 rounded-full"></div>
+        <div class="w-[219px] h-[206px] -right-[9%] top-[45%] absolute bg-purple-400 rounded-full sm:hidden md:block min-[280px]:hidden "></div>
+        <div class="w-[129px] h-[132px] -left-[6%] top-[85%] absolute bg-purple-400 rounded-full sm:hidden md:block min-[280px]:hidden"></div>
         <h1 class="text-4xl font-bold font-syne uppercase ml-6 text-purple-400">skills</h1>
         <div class="flex flex-col my-9 ml-6 mr-8 ">
             <p>those are the technologies and programming languages I have learned and worked with:</p>
@@ -120,6 +126,8 @@
                     express</div>
                 <div class="w-fit text-center text-slate-800 p-3 rounded-lg text-semibold bg-purple-400 capitalize">
                     laravel</div>
+                <div class="w-fit text-center text-slate-800 p-3 rounded-lg text-semibold bg-purple-400 capitalize">
+                    Symfony</div>
             </div>
         </div>
     </div>
