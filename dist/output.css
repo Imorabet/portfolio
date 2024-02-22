@@ -1160,47 +1160,6 @@ form {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
-
-  .min-\[280px\]\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .min-\[280px\]\:text-\[30px\] {
-    font-size: 30px;
-  }
-
-  .min-\[280px\]\:text-\[1\.875rem\] {
-    font-size: 1.875rem;
-  }
-
-  .min-\[280px\]\:text-\[1\.873rem\] {
-    font-size: 1.873rem;
-  }
-
-  .min-\[280px\]\:text-\[1\.874rem\] {
-    font-size: 1.874rem;
-  }
-
-  .min-\[280px\]\:text-\[1\.872rem\] {
-    font-size: 1.872rem;
-  }
-
-  .min-\[280px\]\:text-\[1\.870rem\] {
-    font-size: 1.870rem;
-  }
-
-  .min-\[280px\]\:text-\[1\.865rem\] {
-    font-size: 1.865rem;
-  }
-
-  .min-\[280px\]\:text-\[1\.860rem\] {
-    font-size: 1.860rem;
-  }
-
-  .min-\[280px\]\:text-\[1\.8\] {
-    color: 1.8;
-  }
 }
 
 @media (min-width: 340px) {
