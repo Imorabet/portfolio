@@ -1584,6 +1584,10 @@ form {
     width: 33%;
   }
 
+  .lg\:max-w-\[500px\] {
+    max-width: 500px;
+  }
+
   .lg\:overflow-hidden {
     overflow: hidden;
   }
