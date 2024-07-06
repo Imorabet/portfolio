@@ -1,3 +1,3 @@
 # Portfolio
 ***
-my first portfolio : https://imorabet.github.io/portfolio/
+my portfolio : https://imorabet.github.io/portfolio/
