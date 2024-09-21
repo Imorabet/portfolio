@@ -1283,6 +1283,22 @@ form {
     width: 100%;
   }
 
+  .sm\:w-1 {
+    width: 0.25rem;
+  }
+
+  .sm\:w-9\/12 {
+    width: 75%;
+  }
+
+  .sm\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .sm\:w-11 {
+    width: 2.75rem;
+  }
+
   .sm\:flex-wrap {
     flex-wrap: wrap;
   }
@@ -1306,6 +1322,10 @@ form {
   .sm\:border-purple-400 {
     --tw-border-opacity: 1;
     border-color: rgb(192 132 252 / var(--tw-border-opacity));
+  }
+
+  .sm\:p-1 {
+    padding: 0.25rem;
   }
 
   .sm\:px-4 {
@@ -1445,6 +1465,11 @@ form {
     width: 35%;
   }
 
+  .md\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .md\:flex-nowrap {
     flex-wrap: nowrap;
   }
@@ -1463,6 +1488,10 @@ form {
 
   .md\:border-none {
     border-style: none;
+  }
+
+  .md\:p-5 {
+    padding: 1.25rem;
   }
 
   .md\:pt-16 {
